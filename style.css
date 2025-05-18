@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#emoji{
+    font-size: 20rem;
+    filter: grayscale(1);
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+#emoji:hover{
+    filter: grayscale(0);
+    transform: scale(1.3);
+}
